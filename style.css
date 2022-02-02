@@ -1,0 +1,131 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Supermercado+One&display=swap');
+  @import url(https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css);
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+  }
+
+  main {
+    height: 100vh;
+    background-color: #d6e2f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  dialog {
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 2px 1px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  dialog img,
+  .social-tree img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #8BC6EC;
+    border-radius: 50%;
+    margin: 10px 0;
+  }
+
+  dialog h1 {
+    margin: 10px 0;
+    color: #1F3251;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  dialog p {
+    margin: 10px 0;
+    color: #7B879D;
+    font-family: 'Supermercado One', cursive;
+  }
+
+  dialog button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #8BC6EC;
+    color: #fff;
+    transition: all .3s;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 5px #1f325181;
+  }
+
+  dialog button:hover {
+    cursor: pointer;
+    background-color: #9599E2;
+  }
+
+  dialog button:active {
+    box-shadow: none;
+    width: 98%;
+  }
+
+  .social-tree {
+    width: 340px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-tree p {
+    text-align: center;
+    font-family: 'Supermercado One', cursive;
+    color: #9599E2;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .content ul li {
+    width: 100%;
+    margin: 15px 0px;
+    border: 2px solid #8BC6EC;
+    list-style: none;
+    text-align: center;
+  }
+
+  .content ul li a:hover {
+    background-color: #8BC6EC;
+    color: white;
+  }
+
+  .content ul li a {
+    display: block;
+    width: 100%;
+    color: #9599E2;
+    text-decoration: none;
+    padding: 10px 0;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  .social-tree footer {
+    padding: 20px 0px;
+  }
+
+  .social-tree footer a {
+    font-size: 22px;
+    margin: 0px 5px;
+    color: #9599E2;
+  }
+
+  .social-tree footer a:hover {
+    color: #8BC6EC;
+  }
+
+  .close {
+    display: none;
+  }
