@@ -8,11 +8,12 @@
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
   <title>Github Page | Ladislau Paiva</title>
+  <script src="script.js" defer></script>
 </head>
 
 <body>
   <main>
-    <dialog class="close">
+    <dialog id="dialog">
       <img src="avatar.png" alt="Avatar">
       <h1>
         Ladislau Paiva
@@ -20,7 +21,7 @@
       <p>
         Welcome to my social tree!!
       </p>
-      <button>
+      <button onclick="removeDialog()">
         Close
       </button>
     </dialog>

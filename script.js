@@ -1,5 +1,3 @@
-function opendia() {}
-
-function closedia() {
-  document.getElementById("maindialog").removeAttribute("open", "");
+function removeDialog() {
+  document.getElementById("dialog").style.display = "none";
 }
