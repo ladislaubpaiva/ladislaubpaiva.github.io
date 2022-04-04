@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Supermercado+One&display=swap");
-@import url(https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css);
 * {
   padding: 0;
   margin: 0;
@@ -124,4 +122,10 @@ dialog button:active {
 
 .social-tree footer a:hover {
   color: #8bc6ec;
+}
+
+@media screen and (max-width: 460px) {
+  dialog {
+    width: 94%;
+  }
 }
