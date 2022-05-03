@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+body {
+  background-color: $bgColor;
+  overflow: hidden;
+}
+
+.container {
+  height: 100vh;
+  @include flex;
+  text-align: center;
+}

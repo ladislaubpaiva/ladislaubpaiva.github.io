@@ -1,0 +1,11 @@
+.container footer {
+  padding: 20px 0px;
+  a {
+    font-size: 22px;
+    margin: 0px 5px;
+    color: $textColor;
+    &:hover {
+      color: $hoverColor;
+    }
+  }
+}

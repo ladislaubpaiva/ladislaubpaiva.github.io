@@ -1,3 +1,5 @@
-function removeDialog() {
-  document.getElementById("dialog").style.display = "none";
-}
+document.querySelector('.btn-close').addEventListener('click', () => {
+  setTimeout(() => {
+    document.querySelector('.dialog-container').style.display = 'none';
+  }, 200);
+});

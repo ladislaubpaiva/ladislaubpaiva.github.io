@@ -1,0 +1,55 @@
+.dialog-container {
+  @extend .container;
+  width: 100vw;
+}
+
+dialog {
+  padding: 10px;
+  width: 400px;
+  position: static;
+  border-radius: 15px;
+  box-shadow: 2px 1px 15px rgba(0, 0, 0, 0.3);
+}
+.dialog-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    border: 4px solid $hoverColor;
+    border-radius: 50%;
+    margin: 10px 0;
+  }
+  h1 {
+    margin: 10px 0;
+    color: #1f3251;
+    font-family: 'Bebas Neue', cursive;
+  }
+  p {
+    margin: 10px 0;
+    color: #7b879d;
+    font-family: 'Supermercado One', cursive;
+  }
+  button {
+    color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: $hoverColor;
+    box-shadow: 1px 1px 5px #1f325181;
+    &:hover {
+      cursor: pointer;
+      background-color: $textColor;
+    }
+    &:active {
+      box-shadow: none;
+      width: 98%;
+    }
+  }
+}

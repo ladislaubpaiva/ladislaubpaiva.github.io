@@ -5,13 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Ladislau Paiva" />
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./assets/style/style.css" />
     <title>Github Page | Ladislau Paiva</title>
-    <link
-      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Supermercado+One&display=swap"
       rel="stylesheet"
@@ -19,14 +16,18 @@
   </head>
 
   <body>
-    <main>
-      <dialog id="dialog">
-        <img src="./assets/images/pfp.jpeg" alt="PFP" />
-        <h1>Ladislau Paiva</h1>
-        <p>Welcome to my social tree!!</p>
-        <button onclick="removeDialog()">Close</button>
+    <div class="dialog-container">
+      <dialog id="dialog" open>
+        <div class="dialog-content">
+          <img src="./assets/images/pfp.jpeg" alt="PFP" />
+          <h1>Ladislau Paiva</h1>
+          <p>Welcome to my social tree!!</p>
+          <button class="btn-close">Close</button>
+        </div>
       </dialog>
-      <section class="social-tree">
+    </div>
+    <main class="container">
+      <section class="card">
         <header>
           <img src="./assets/images/logo.png" alt="Logo" />
           <p>@ladislaubpaiva</p>
@@ -34,49 +35,25 @@
         <div class="content">
           <ul>
             <li>
-              <a href="https://ladislaubpaiva.pages.dev" target="_blank"
-                >Website</a
-              >
+              <a href="https://ladislaubpaiva.pages.dev" target="_blank">Website</a>
             </li>
             <li>
-              <a
-                href="https://www.freecodecamp.org/ladislaubpaiva"
-                target="_blank"
-                >freeCodeCamp</a
-              >
+              <a href="https://www.freecodecamp.org/ladislaubpaiva" target="_blank">freeCodeCamp</a>
             </li>
             <li>
-              <a
-                href="https://stackoverflow.com/story/ladislaubpaiva"
-                target="_blank"
-                >Stack Overflow</a
-              >
+              <a href="https://stackoverflow.com/story/ladislaubpaiva" target="_blank">Stack Overflow</a>
             </li>
             <li>
-              <a
-                href="https://www.frontendmentor.io/profile/ladislaubpaiva"
-                target="_blank"
-                >Frontend Mentor</a
-              >
+              <a href="https://www.frontendmentor.io/profile/ladislaubpaiva" target="_blank">Frontend Mentor</a>
             </li>
           </ul>
         </div>
         <footer>
-          <a href="https://github.com/ladislaubpaiva" target="_blank"
-            ><i class="bx bxl-github"></i
-          ></a>
-          <a href="https://twitter.com/ladislaubpaiva" target="_blank"
-            ><i class="bx bxl-twitter"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/ladislaubpaiva/" target="_blank"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
-          <a href="https://dev.to/ladislaubpaiva" target="_blank"
-            ><i class="bx bxl-dev-to"></i
-          ></a>
-          <a
-            href="https://www.youtube.com/channel/UCyrEfX3MSjYwvWEnf8MD45g"
-            target="_blank"
+          <a href="https://github.com/ladislaubpaiva" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://twitter.com/ladislaubpaiva" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/ladislaubpaiva/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://dev.to/ladislaubpaiva" target="_blank"><i class="bx bxl-dev-to"></i></a>
+          <a href="https://www.youtube.com/channel/UCyrEfX3MSjYwvWEnf8MD45g" target="_blank"
             ><i class="bx bxl-youtube"></i
           ></a>
         </footer>

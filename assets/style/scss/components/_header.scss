@@ -1,0 +1,9 @@
+.container header {
+  img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid $hoverColor;
+    border-radius: 50%;
+    margin: 10px 0;
+  }
+}

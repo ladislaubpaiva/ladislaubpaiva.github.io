@@ -1,0 +1,32 @@
+.card {
+  width: 340px;
+  padding: 20px;
+  @include flex(col);
+
+  p {
+    font-family: 'Supermercado One', cursive;
+    color: $textColor;
+  }
+}
+.content {
+  width: 100%;
+  li {
+    width: inherit;
+    list-style: none;
+    margin: 15px 0px;
+    border: 2px solid $hoverColor;
+    // padding: 20px 0px;
+  }
+  a {
+    display: block;
+    width: 100%;
+    color: $textColor;
+    text-decoration: none;
+    padding: 10px 0;
+    font-family: 'Bebas Neue', cursive;
+    &:hover {
+      background-color: $hoverColor;
+      color: white;
+    }
+  }
+}
