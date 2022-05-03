@@ -3,3 +3,17 @@
     width: 94%;
   }
 }
+@media screen and (max-width: 300px) {
+  .dialog-container {
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  .container header {
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}

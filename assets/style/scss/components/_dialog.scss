@@ -1,6 +1,8 @@
 .dialog-container {
   @extend .container;
   width: 100vw;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 dialog {
@@ -19,7 +21,6 @@ dialog {
   img {
     width: 200px;
     height: 200px;
-    max-width: 200px;
     border: 4px solid $hoverColor;
     border-radius: 50%;
     margin: 10px 0;
